@@ -1,0 +1,37 @@
+/* style for the input box */
+.section
+{
+  padding: 200px;
+}
+.container{
+  background-color: rgba(255, 127, 80, 0.326);
+  border-radius: 10px;
+}
+.row
+{
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+
+#message{
+ 
+  border-radius: 8px;
+  color: black;
+  border: none;
+  transition: 0.5s;
+}
+#message:hover{
+
+  box-shadow: 2px 2px 5px  black;
+}
+
+.char-in{
+  height: 150px;
+  padding: 0px;
+}
+.calculation{
+  padding: 0px 50px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
